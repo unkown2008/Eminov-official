@@ -65,7 +65,7 @@ button {
     }
 
     button:hover {
-      background-color: #45a049; /* Üstüne barylanyňda fon reňki */
+      background-color: #45a049; 
     }
   
 
@@ -91,6 +91,11 @@ footer {
   display: none;
   z-index: 1000;
 }
+h3 {
+  text-align: right;
+
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
