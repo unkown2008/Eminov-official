@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background: linear-gradient(135deg, #1f4037, #99f2c8);
+  background: linear-gradient(135deg, #1f4037);
   color: #fff;
   line-height: 1.6;
   padding: 2rem;
@@ -46,6 +46,29 @@ section {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s;
 }
+button {
+      background-color: blanchedalmond; 
+     
+      color: black;              
+      
+      padding: 3px 9px;        
+     
+                 
+     
+      border-radius: 5px;       
+      
+      cursor: pointer;          
+      
+      font-size: 10px;           
+    
+      transition: background-color 0.3s ease; 
+    }
+
+    button:hover {
+      background-color: #45a049; /* Üstüne barylanyňda fon reňki */
+    }
+  
+
 section:hover {
   transform: translateY(-5px);
 }
